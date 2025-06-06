@@ -1,0 +1,19 @@
+curl --location --request POST 'http://localhost:8080/sesion' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "docenteNombre": "Giannela Peramas",
+  "nivelEducativo": "Primaria",
+  "gradoEducativo": "3° grado",
+  "areaCurricular": "Comunicación",
+  "temaPrincipalArea": "Comprensión Lectora",
+  "contextoEspecificoTema": "La fotosíntesis",
+  "institucionEducativa": "Andrés Bello",
+  "duracionEstimadaMinutos": 90,
+  "competenciaCneb": "Lee diversos tipos de textos escritos en su lengua materna",
+  "capacidadesCneb": "Obtiene información del texto escrito; Infiere e interpreta información del texto",
+  "desempenioEspecifico": "Identifica información explícita y relevante sobre el proceso de la fotosíntesis en un texto informativo dado.",
+  "evidenciaDeAprendizaje": "Un organizador visual que sintetice las etapas de la fotosíntesis.",
+  "instrumentoDeEvaluacion": "Lista de cotejo",
+  "enfoquesTransversalesPrioritarios": "Enfoque Ambiental",
+  "observacionesAdicionales": "Incluir el uso de TIC"
+}'
